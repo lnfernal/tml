@@ -94,7 +94,7 @@ def parse(file):
           res = split_string[0]
           print(res) # been doing too much js
           #print(lines)
-          os.system(f"touch {res}.bhtml") # creates file
+          os.system(f"touch {res}.tml") # creates file
           ee = lines.partition(f'<a href = "{res}">')
           f = ee[2]
           f = str(f)
